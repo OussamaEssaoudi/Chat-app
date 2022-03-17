@@ -1,0 +1,80 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+.App {
+}
+
+.leftText h1{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #333333;
+}
+
+.leftText p{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #333333;
+}
+
+.leftText span{
+  color: #4461F2;
+}
+
+.rightForm button{
+  width: 215px;
+  height: 56px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #F6F6F6;
+  background: #4461F2;
+  box-shadow: 0px 4px 42px -4px #4461F2;
+  border-radius: 22px;
+  border:0;
+}
+
+.rightForm input{
+  width: 350px;
+  height: 55px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #676C72;
+  background: #EAF0F7;
+  border-radius: 22px;
+  border:0;
+  margin-bottom: 50px;
+  padding-left: 40px;
+}
+
+.rightForm img{
+  width: 121px;
+  height: 123px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  column-gap: 10rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.rightForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
